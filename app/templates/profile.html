@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="div-container">
+	<div class="header">
+		<img src="{{url_for('static', filename='pc.png')}}" />
+		<h1>Shaquan Robinson</h1>
+		<p>@SRobinson</p>
+		<p>Kingston, Jamaica</p>
+		<p>{{datee}}</p>
+	</div>
+	<div class="header2">
+		<p>I'm a smart and talented young man who loves website design and development. Contact me if you would like to work together on a new project.</p>
+		<div class ="flex">
+
+			<div>7 <br><p>Posts</p></div>
+		  	<div>100 <br><p>Following</p></div>
+		  	<div>250 <br><p>Followers</p></div>
+		</div>
+		<div class = "but">
+	  		<button type="button">Follow</button>
+	  	</div>
+	</div>
+</div>
+{% endblock %}

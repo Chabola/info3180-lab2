@@ -1,3 +1,77 @@
 body {
-    padding-top: 5rem;
+    margin-top: 70px; 
+    margin-bottom: -10px;
+}
+.div-container{
+	margin:auto;
+	width: 500px;
+    display: grid;
+  	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  	overflow-x: hidden;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif; 
+    border: 1px solid grey;
+	border-radius: 5px;
+}
+.header {
+
+	grid-row: 1 / 2;
+	text-align: center;
+	background-color: skyblue;
+	align-content: center;
+	align-items: center;
+	border-bottom: 1px solid grey; 
+
+}
+.header > p{
+	margin: 5px;
+}
+.flex {
+	margin-top: -25px;
+	display: flex;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	grid-row: 2/ 3;
+}
+.header2 {
+	padding-top: 10px;
+	margin: auto;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	grid-row: 2/ 3;
+}
+.header2 > p {
+	text-align: justify;
+	align-content: center;
+	align-items: center;
+	width: 400px;
+}
+.flex > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.flex > div > p {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif; 
+	font-size: 16px;
+}
+.but {
+	padding-bottom: 25px;
+}
+button {
+	border-radius: 10px;
+	width: 150px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	background-color: green;
+	border:none;
+}
+img {
+	margin-top: 25px;
+	height:140px;
+	width:150px;
+	border-radius: 50%;
 }
